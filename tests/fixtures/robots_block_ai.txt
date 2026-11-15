@@ -1,0 +1,10 @@
+User-agent: GPTBot
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: *
+Disallow: /admin/
+Allow: /

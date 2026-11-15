@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#F4EEE4">
+  <meta name="description" content="Check how easy your business is to find in ChatGPT, Perplexity and other AI search tools. Runs on your device, nothing is sent anywhere.">
+  <title>AI Search Visibility Checklist</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="backdrop" aria-hidden="true">
+    <span class="blob blob-a"></span>
+    <span class="blob blob-b"></span>
+    <span class="blob blob-c"></span>
+    <span class="grain"></span>
+  </div>
+
+  <a class="skip-link" href="#main">Skip to the content</a>
+
+  <header class="topbar">
+    <div class="topbar-inner glass">
+      <div class="brand">
+        <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+          <rect width="64" height="64" rx="18" fill="currentColor"/>
+          <circle cx="29" cy="29" r="13" fill="none" stroke="#5B4031" stroke-width="5.5"/>
+          <circle cx="29" cy="29" r="13" fill="none" stroke="#F4EEE4" stroke-width="5.5" stroke-linecap="round" stroke-dasharray="52 81.7" transform="rotate(-90 29 29)"/>
+          <path d="M39 39l9 9" stroke="#6FB3A8" stroke-width="5.5" stroke-linecap="round"/>
+        </svg>
+        <div class="brand-text">
+          <h1>AI Search Visibility Checklist</h1>
+          <p class="privacy" id="privacy-note">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10V7a5 5 0 0 1 10 0v3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><rect x="5" y="10" width="14" height="10" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+            <span id="privacy-text">Everything stays on this device</span>
+          </p>
+        </div>
+      </div>
+
+      <nav class="toolbar" aria-label="File actions">
+        <button class="btn btn-ghost" type="button" id="btn-import" data-feedback="none">
+          <span class="btn-label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 19h14" /></svg>Import</span>
+        </button>
+        <button class="btn btn-ghost" type="button" id="btn-export-json">
+          <span class="btn-label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V4m0 0L8 8m4-4 4 4M5 19h14" /></svg>Export JSON</span>
+        </button>
+        <button class="btn btn-ghost" type="button" id="btn-export-csv">
+          <span class="btn-label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM4 10h16M10 10v9" /></svg>Export CSV</span>
+        </button>
+        <button class="btn btn-ghost" type="button" id="btn-print">
+          <span class="btn-label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V4h10v5M7 17H5a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2M7 14h10v6H7z" /></svg>Print report</span>
+        </button>
+        <button class="btn btn-ghost btn-icon" type="button" id="btn-business" aria-label="Business details" title="Business details" data-feedback="none">
+          <span class="btn-label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V8l8-4 8 4v12M9 20v-6h6v6M4 20h16" /></svg></span>
+        </button>
+        <div class="menu-wrap">
+          <button class="btn btn-ghost btn-icon" type="button" id="btn-more" aria-label="More actions" title="More actions" aria-haspopup="true" aria-expanded="false" aria-controls="more-menu" data-feedback="none">
+            <span class="btn-label"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="12" r="1.4"/><circle cx="12" cy="12" r="1.4"/><circle cx="19" cy="12" r="1.4"/></svg></span>
+          </button>
+          <div class="menu glass" id="more-menu" role="menu" hidden>
+            <button type="button" role="menuitem" id="btn-load-sample">Load the fictional sample</button>
+            <button type="button" role="menuitem" id="btn-reset">Start my own (empty)</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="shell" id="main">
+    <div class="sample-banner glass" id="sample-banner" hidden>
+      <p><span class="dot" aria-hidden="true"></span><strong>You are looking at a fictional example business.</strong> Every name and result in it is made up.</p>
+      <button class="btn btn-primary btn-sm" type="button" id="btn-start-own"><span class="btn-label">Start my own</span></button>
+    </div>
+
+    <section class="hero" aria-label="Your business">
+      <div class="hero-text">
+        <h2 class="hero-name" id="hero-name">Your business</h2>
+        <p class="hero-line" id="hero-line"></p>
+        <p class="hero-meta" id="hero-meta"></p>
+      </div>
+      <div class="tabs glass" role="tablist" aria-label="Parts of the app">
+        <span class="tab-pill" id="tab-pill" aria-hidden="true"></span>
+        <button class="tab" role="tab" id="tab-checklist" aria-controls="panel-checklist" aria-selected="true" data-tab="checklist">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11M4 6l1 1 2-2M4 12l1 1 2-2M4 18l1 1 2-2"/></svg>Checklist
+        </button>
+        <button class="tab" role="tab" id="tab-tracker" aria-controls="panel-tracker" aria-selected="false" data-tab="tracker" tabindex="-1">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19h16M6 16l4-5 3 3 5-7"/></svg>AI answer tracker
+        </button>
+      </div>
+    </section>
+
+    <!-- ===== Checklist ===== -->
+    <section class="panel" id="panel-checklist" role="tabpanel" aria-labelledby="tab-checklist">
+      <div class="summary" aria-label="Checklist summary">
+        <article class="stat stat-gauge glass">
+          <div class="ring ring-xl" id="score-ring" role="img" aria-label="Visibility score"></div>
+          <div class="gauge-text">
+            <p class="eyebrow">Visibility score</p>
+            <p class="stat-sub" id="score-sub">points earned out of points possible</p>
+            <span class="chip chip-dot chip-none" id="score-chip">No score yet</span>
+          </div>
+        </article>
+        <article class="stat glass">
+          <p class="eyebrow">Points earned</p>
+          <p class="stat-value"><span id="points-earned">0</span><small id="points-possible">of 0</small></p>
+          <p class="stat-sub">high 3, medium 2, low 1</p>
+        </article>
+        <article class="stat glass">
+          <p class="eyebrow">Answered</p>
+          <p class="stat-value"><span id="answered">0</span><small id="answered-total">of 0</small></p>
+          <div class="progress" aria-hidden="true"><span id="answered-bar"></span></div>
+        </article>
+        <article class="stat glass">
+          <p class="eyebrow">Share of AI answers</p>
+          <p class="stat-value" id="share-latest">n/a</p>
+          <p class="stat-sub" id="share-latest-sub">from the AI answer tracker</p>
+        </article>
+      </div>
+
+      <p class="insight" id="insight" aria-live="polite"></p>
+
+      <div class="workspace">
+        <aside class="side">
+          <section class="card glass" aria-labelledby="fixes-title">
+            <div class="card-head"><h2 id="fixes-title">Top fixes</h2><p class="hint">Biggest points first</p></div>
+            <ol class="fixes" id="fixes"></ol>
+          </section>
+          <section class="card glass" aria-labelledby="sections-title">
+            <div class="card-head"><h2 id="sections-title">By section</h2></div>
+            <ul class="sec-progress" id="sec-progress"></ul>
+          </section>
+        </aside>
+        <section class="editor glass" id="editor" aria-label="The checklist"></section>
+      </div>
+    </section>
+
+    <!-- ===== Tracker ===== -->
+    <section class="panel" id="panel-tracker" role="tabpanel" aria-labelledby="tab-tracker" hidden>
+      <div class="summary" aria-label="Tracker summary">
+        <article class="stat stat-gauge glass">
+          <div class="ring ring-xl" id="share-ring" role="img" aria-label="Share of AI answers"></div>
+          <div class="gauge-text">
+            <p class="eyebrow">Share of AI answers</p>
+            <p class="stat-sub" id="share-sub">answers that named you, latest check</p>
+          </div>
+        </article>
+        <article class="stat glass">
+          <p class="eyebrow">Change since first check</p>
+          <p class="stat-value" id="share-change">n/a</p>
+          <p class="stat-sub" id="share-change-sub">percentage points</p>
+        </article>
+        <article class="stat glass">
+          <p class="eyebrow">Average position</p>
+          <p class="stat-value" id="avg-pos">n/a</p>
+          <p class="stat-sub">when you were named, latest check</p>
+        </article>
+        <article class="stat glass">
+          <p class="eyebrow">Answers recorded</p>
+          <p class="stat-value"><span id="checks-total">0</span></p>
+          <p class="stat-sub" id="checks-sub">across 0 dates</p>
+        </article>
+      </div>
+
+      <div class="tracker-grid">
+        <section class="card glass" aria-labelledby="chart-title">
+          <div class="card-head"><h2 id="chart-title">Share of answers over time</h2><p class="hint">Answers that named you, out of all answers checked</p></div>
+          <div class="chart-wrap" id="chart"></div>
+        </section>
+        <section class="card glass" aria-labelledby="plat-title">
+          <div class="card-head"><h2 id="plat-title">By platform</h2><p class="hint" id="plat-date"></p></div>
+          <ul class="bars" id="plat-bars"></ul>
+        </section>
+        <section class="card glass" aria-labelledby="comp-title">
+          <div class="card-head"><h2 id="comp-title">Who gets named most</h2><p class="hint">All checks</p></div>
+          <ul class="bars" id="comp-bars"></ul>
+        </section>
+        <section class="card glass" aria-labelledby="prompts-title">
+          <div class="card-head"><h2 id="prompts-title">Buyer prompts <span class="hint" id="prompt-count"></span></h2></div>
+          <ul class="prompt-list" id="prompt-list"></ul>
+          <form class="prompt-add" id="prompt-add" novalidate>
+            <label class="sr-only" for="new-prompt">New buyer prompt</label>
+            <input class="field-input" id="new-prompt" type="text" maxlength="200" autocomplete="off" placeholder="Type a buyer question, like best AI SDR agency for fintech">
+            <button class="btn btn-primary btn-sm" type="submit" id="btn-add-prompt"><span class="btn-label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg>Add</span></button>
+          </form>
+          <div class="prompt-lib">
+            <label class="sr-only" for="lib-select">Add a prompt from the library</label>
+            <select id="lib-select"><option value="">Add from the prompt library...</option></select>
+          </div>
+        </section>
+      </div>
+
+      <section class="record glass" id="record" aria-labelledby="record-title">
+        <div class="record-head">
+          <div>
+            <h2 id="record-title">Record what the AI said</h2>
+            <p class="hint">Ask each prompt yourself on the platform, then tick if your business was named, its position, and who else was named. This app never asks any AI for you.</p>
+          </div>
+          <div class="record-controls">
+            <div>
+              <label for="rec-date">Date of the check</label>
+              <input id="rec-date" type="date">
+            </div>
+            <button class="btn btn-ghost btn-sm" type="button" id="btn-today" data-feedback="none"><span class="btn-label">Today</span></button>
+          </div>
+        </div>
+        <div class="date-chips" id="date-chips" aria-label="Dates with results"></div>
+        <div class="plat-tabs" id="plat-tabs" role="tablist" aria-label="Platform"></div>
+        <div class="rows" id="rows"></div>
+        <div class="record-actions">
+          <p class="hint" id="rec-status"></p>
+          <button class="btn btn-primary" type="button" id="btn-save-results"><span class="btn-label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" /></svg>Save results</span></button>
+        </div>
+      </section>
+    </section>
+
+    <footer class="foot">
+      <p>No tool can promise that an AI will mention or recommend you, and AI answers change often. This checklist makes your business easier to find and understand.</p>
+      <p>Version 1.0.0. Free and open source under the MIT licence. No accounts, no tracking, no network calls. The sample business and every name in it are fictional.</p>
+    </footer>
+  </main>
+
+  <section class="print-sheet" id="print-sheet" aria-hidden="true"></section>
+
+  <div class="toasts" id="toasts" role="region" aria-live="polite" aria-label="Notifications"></div>
+
+  <dialog class="dialog glass" id="business-dialog" aria-labelledby="business-title">
+    <form method="dialog" id="business-form" novalidate>
+      <h2 id="business-title">Your business</h2>
+      <p class="dialog-sub">Used in the report. Only real facts. It stays on this device.</p>
+      <div class="field">
+        <label for="biz-name">Company name, spelled exactly as you use it everywhere</label>
+        <input class="field-input" id="biz-name" type="text" maxlength="120" autocomplete="organization">
+      </div>
+      <div class="field">
+        <label for="biz-line">One line: what you do and for whom</label>
+        <input class="field-input" id="biz-line" type="text" maxlength="220" autocomplete="off">
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="biz-site">Website</label>
+          <input class="field-input" id="biz-site" type="text" maxlength="200" autocomplete="url" placeholder="https://">
+          <p class="hint error-text" id="biz-site-error" hidden></p>
+        </div>
+        <div class="field">
+          <label for="biz-niche">Niche</label>
+          <input class="field-input" id="biz-niche" type="text" maxlength="80" autocomplete="off">
+        </div>
+      </div>
+      <div class="field">
+        <label for="biz-loc">Where you serve (city, region, country or remote)</label>
+        <input class="field-input" id="biz-loc" type="text" maxlength="120" autocomplete="off">
+      </div>
+      <div class="dialog-actions">
+        <button class="btn btn-ghost" type="button" id="business-cancel" data-feedback="none"><span class="btn-label">Cancel</span></button>
+        <button class="btn btn-primary" type="button" id="business-save"><span class="btn-label">Save details</span></button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog class="dialog glass" id="confirm-dialog" aria-labelledby="confirm-title" aria-describedby="confirm-text">
+    <form method="dialog">
+      <h2 id="confirm-title">Are you sure?</h2>
+      <p class="dialog-sub" id="confirm-text"></p>
+      <div class="dialog-actions">
+        <button class="btn btn-ghost" value="cancel" data-feedback="none"><span class="btn-label">Cancel</span></button>
+        <button class="btn btn-primary" value="ok" id="confirm-ok" data-feedback="none"><span class="btn-label">Confirm</span></button>
+      </div>
+    </form>
+  </dialog>
+
+  <input type="file" id="import-file" accept=".json,application/json" hidden>
+
+  <script src="kit-data.js"></script>
+  <script src="engine.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

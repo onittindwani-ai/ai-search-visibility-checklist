@@ -1,0 +1,5 @@
+# Allows everyone
+User-agent: *
+Disallow:
+
+Sitemap: https://example.test/sitemap.xml

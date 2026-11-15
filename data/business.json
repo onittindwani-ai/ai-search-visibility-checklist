@@ -1,0 +1,16 @@
+{
+  "kit": "ai-search-visibility-checklist",
+  "version": 1,
+  "fictional": false,
+  "note": "Your own business. Claude fills this in with you (/visibility-audit), or you import it in the app. Only real facts from you.",
+  "business": {
+    "name": "",
+    "one_liner": "",
+    "website": "",
+    "niche": "",
+    "location": ""
+  },
+  "answers": {},
+  "prompts": [],
+  "checks": []
+}

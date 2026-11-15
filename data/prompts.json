@@ -1,0 +1,87 @@
+{
+  "version": "1.0.0",
+  "note": "Example buyer prompts to track. Replace the words in [brackets] with your own city, niche or tool. Edit them into the words your own buyers use.",
+  "platforms": [
+    { "id": "chatgpt", "label": "ChatGPT" },
+    { "id": "perplexity", "label": "Perplexity" },
+    { "id": "gemini", "label": "Gemini" },
+    { "id": "claude", "label": "Claude" },
+    { "id": "google_ai_overviews", "label": "Google AI Overviews" }
+  ],
+  "niches": [
+    {
+      "id": "ai-sdr",
+      "title": "AI SDR and outbound agencies",
+      "prompts": [
+        "best AI SDR agency for B2B SaaS",
+        "who can set up AI cold email outreach for my startup",
+        "AI SDR agency that books sales meetings for [industry] companies",
+        "done for you AI outbound agency with a pay per meeting option",
+        "AI SDR vs hiring a human SDR for a small sales team",
+        "agency that builds AI sales agents for LinkedIn and email outreach",
+        "who can automate lead generation and follow ups with AI for a [industry] business",
+        "top AI lead generation agencies in [country]"
+      ]
+    },
+    {
+      "id": "ai-voice",
+      "title": "AI voice agents",
+      "prompts": [
+        "who can build an AI voice agent for a dental clinic",
+        "AI receptionist for a law firm that answers calls and books appointments",
+        "company that builds AI phone agents for home service businesses",
+        "best agency to set up an AI voice agent for inbound sales calls",
+        "AI voice agent for a real estate agency to call back new leads",
+        "who builds custom AI call assistants for clinics in [city]"
+      ]
+    },
+    {
+      "id": "ai-automation",
+      "title": "AI automation agencies",
+      "prompts": [
+        "best AI automation agency for small businesses",
+        "who can automate my business workflows with AI agents",
+        "AI automation agency for e commerce stores",
+        "agency that builds AI agents with n8n or Make for operations teams",
+        "AI automation consultant for a marketing agency in [city]",
+        "how do I find a reliable AI automation agency",
+        "AI agency that connects my CRM, email and calendar with AI"
+      ]
+    },
+    {
+      "id": "ai-support",
+      "title": "AI chatbots and customer support",
+      "prompts": [
+        "who can build an AI customer support chatbot trained on my help docs",
+        "best AI chatbot agency for a SaaS company",
+        "company that sets up AI agents for WhatsApp customer support",
+        "AI chatbot for a hotel to answer guest questions and take bookings",
+        "agency that builds AI support agents for Shopify stores"
+      ]
+    },
+    {
+      "id": "saas",
+      "title": "B2B SaaS products",
+      "prompts": [
+        "best AI sales assistant software for B2B teams",
+        "AI tool that writes and sends personalised cold emails",
+        "alternatives to [competitor product] for AI outbound",
+        "AI software that qualifies inbound leads and books demos",
+        "which AI SDR platform is best for a startup with a small budget",
+        "AI tool to handle replies to cold email campaigns",
+        "[your product category] software with an AI agent for small agencies"
+      ]
+    },
+    {
+      "id": "local",
+      "title": "Local and service businesses",
+      "prompts": [
+        "best [service] near [city] that offers online booking",
+        "who is the most trusted [service] in [city]",
+        "affordable [service] in [city] with good reviews",
+        "[service] in [city] that answers the phone after hours",
+        "which [service] in [city] is best for small businesses"
+      ]
+    }
+  ]
+}

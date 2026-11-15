@@ -1,0 +1,2255 @@
+{
+  "kit": "ai-search-visibility-checklist",
+  "version": 1,
+  "fictional": true,
+  "note": "FICTIONAL SAMPLE. Northwind Reply Co. and every competitor name in this file are invented for the example. Any match with a real company is a coincidence. The results were made up to show how the tracker works.",
+  "business": {
+    "name": "Northwind Reply Co. (fictional)",
+    "one_liner": "We build AI SDR systems that book sales meetings for B2B SaaS companies.",
+    "website": "https://northwind-reply.example",
+    "niche": "AI SDR agency",
+    "location": "Remote, serving the United States"
+  },
+  "answers": {
+    "entity-one-name": "yes",
+    "entity-one-liner": "yes",
+    "entity-same-everywhere": "yes",
+    "entity-about-page": "yes",
+    "entity-contact-details": "not_sure",
+    "crawl-robots-allow": "yes",
+    "crawl-text-not-images": "yes",
+    "crawl-org-schema": "no",
+    "crawl-headings": "yes",
+    "crawl-title-meta": "yes",
+    "crawl-no-wall": "not_sure",
+    "crawl-fast-mobile": "yes",
+    "crawl-sitemap": "yes",
+    "pages-services": "yes",
+    "pages-pricing": "no",
+    "pages-case-studies": "yes",
+    "pages-faq": "no",
+    "pages-process": "yes",
+    "pages-comparison": "no",
+    "third-linkedin-page": "yes",
+    "third-directories": "no",
+    "third-podcasts-articles": "no",
+    "proof-real-reviews": "no",
+    "proof-dated-content": "yes",
+    "proof-updated-pages": "not_sure",
+    "proof-named-founders": "yes",
+    "words-use-cases": "no",
+    "words-question-headings": "no",
+    "words-niche-location": "not_relevant",
+    "words-buyer-language": "yes",
+    "measure-prompt-list": "yes",
+    "measure-monthly-check": "yes",
+    "measure-competitors": "not_sure"
+  },
+  "prompts": [
+    {
+      "id": "p01",
+      "text": "best AI SDR agency for B2B SaaS"
+    },
+    {
+      "id": "p02",
+      "text": "who can set up AI cold email outreach for my startup"
+    },
+    {
+      "id": "p03",
+      "text": "AI SDR agency that books sales meetings for fintech companies"
+    },
+    {
+      "id": "p04",
+      "text": "done for you AI outbound agency with a pay per meeting option"
+    },
+    {
+      "id": "p05",
+      "text": "AI SDR vs hiring a human SDR for a small sales team"
+    },
+    {
+      "id": "p06",
+      "text": "agency that builds AI sales agents for LinkedIn and email outreach"
+    },
+    {
+      "id": "p07",
+      "text": "who can automate lead generation and follow ups with AI for a SaaS business"
+    },
+    {
+      "id": "p08",
+      "text": "top AI lead generation agencies in the United States"
+    },
+    {
+      "id": "p09",
+      "text": "who can build an AI voice agent for a dental clinic"
+    },
+    {
+      "id": "p10",
+      "text": "AI agency that connects my CRM, email and calendar with AI"
+    },
+    {
+      "id": "p11",
+      "text": "AI tool to handle replies to cold email campaigns"
+    },
+    {
+      "id": "p12",
+      "text": "best AI automation agency for small businesses"
+    }
+  ],
+  "checks": [
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p01",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p01",
+      "platform": "perplexity",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p01",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Quillstone Partners"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p01",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p01",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p02",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Meridian Reply Lab",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p02",
+      "platform": "perplexity",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p02",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Copperline SDR",
+        "Harborlight Growth",
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p02",
+      "platform": "claude",
+      "mentioned": true,
+      "position": 5,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Quillstone Partners",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p02",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Tallgrass Outbound",
+        "Quillstone Partners"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p03",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Quillstone Partners",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p03",
+      "platform": "perplexity",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p03",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p03",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p03",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Copperline SDR",
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p04",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p04",
+      "platform": "perplexity",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p04",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Meridian Reply Lab",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p04",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Bluepine Revenue",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p04",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p05",
+      "platform": "chatgpt",
+      "mentioned": true,
+      "position": 6,
+      "competitors": [
+        "Copperline SDR",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p05",
+      "platform": "perplexity",
+      "mentioned": true,
+      "position": 5,
+      "competitors": [
+        "Meridian Reply Lab",
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p05",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p05",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p05",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p06",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p06",
+      "platform": "perplexity",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Harborlight Growth",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p06",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p06",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Meridian Reply Lab",
+        "Bluepine Revenue",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p06",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Copperline SDR",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p07",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Harborlight Growth",
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p07",
+      "platform": "perplexity",
+      "mentioned": true,
+      "position": 5,
+      "competitors": [
+        "Harborlight Growth",
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p07",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Meridian Reply Lab",
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p07",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Bluepine Revenue",
+        "Meridian Reply Lab",
+        "Quillstone Partners"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p07",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p08",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p08",
+      "platform": "perplexity",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Quillstone Partners"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p08",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p08",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Copperline SDR",
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p08",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Copperline SDR",
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p09",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p09",
+      "platform": "perplexity",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p09",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Quillstone Partners",
+        "Harborlight Growth",
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p09",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p09",
+      "platform": "google_ai_overviews",
+      "mentioned": true,
+      "position": 6,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Harborlight Growth",
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p10",
+      "platform": "chatgpt",
+      "mentioned": true,
+      "position": 6,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Copperline SDR",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p10",
+      "platform": "perplexity",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p10",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p10",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Quillstone Partners",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p10",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Tallgrass Outbound",
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p11",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Meridian Reply Lab",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p11",
+      "platform": "perplexity",
+      "mentioned": true,
+      "position": 4,
+      "competitors": [
+        "Meridian Reply Lab",
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p11",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p11",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Copperline SDR",
+        "Harborlight Growth",
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p11",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p12",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p12",
+      "platform": "perplexity",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Copperline SDR",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p12",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Tallgrass Outbound",
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p12",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Meridian Reply Lab",
+        "Copperline SDR",
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-08-14",
+      "prompt_id": "p12",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Copperline SDR",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p01",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p01",
+      "platform": "perplexity",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p01",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p01",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p01",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p02",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Quillstone Partners",
+        "Meridian Reply Lab",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p02",
+      "platform": "perplexity",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p02",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p02",
+      "platform": "claude",
+      "mentioned": true,
+      "position": 2,
+      "competitors": [
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p02",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Copperline SDR",
+        "Tallgrass Outbound",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p03",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p03",
+      "platform": "perplexity",
+      "mentioned": true,
+      "position": 2,
+      "competitors": [
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p03",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Quillstone Partners"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p03",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Quillstone Partners",
+        "Tallgrass Outbound",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p03",
+      "platform": "google_ai_overviews",
+      "mentioned": true,
+      "position": 5,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p04",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Meridian Reply Lab",
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p04",
+      "platform": "perplexity",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p04",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p04",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Meridian Reply Lab",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p04",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p05",
+      "platform": "chatgpt",
+      "mentioned": true,
+      "position": 3,
+      "competitors": [
+        "Harborlight Growth",
+        "Quillstone Partners",
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p05",
+      "platform": "perplexity",
+      "mentioned": true,
+      "position": 4,
+      "competitors": [
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p05",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p05",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Bluepine Revenue",
+        "Copperline SDR",
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p05",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p06",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Bluepine Revenue",
+        "Quillstone Partners",
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p06",
+      "platform": "perplexity",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p06",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p06",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Meridian Reply Lab",
+        "Quillstone Partners"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p06",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p07",
+      "platform": "chatgpt",
+      "mentioned": true,
+      "position": 2,
+      "competitors": [
+        "Harborlight Growth",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p07",
+      "platform": "perplexity",
+      "mentioned": true,
+      "position": 2,
+      "competitors": [
+        "Harborlight Growth",
+        "Copperline SDR",
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p07",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Meridian Reply Lab",
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p07",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p07",
+      "platform": "google_ai_overviews",
+      "mentioned": true,
+      "position": 3,
+      "competitors": [
+        "Copperline SDR",
+        "Meridian Reply Lab",
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p08",
+      "platform": "chatgpt",
+      "mentioned": true,
+      "position": 3,
+      "competitors": [
+        "Meridian Reply Lab",
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p08",
+      "platform": "perplexity",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p08",
+      "platform": "gemini",
+      "mentioned": true,
+      "position": 2,
+      "competitors": [
+        "Bluepine Revenue",
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p08",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Quillstone Partners"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p08",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p09",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p09",
+      "platform": "perplexity",
+      "mentioned": true,
+      "position": 3,
+      "competitors": [
+        "Copperline SDR",
+        "Tallgrass Outbound",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p09",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p09",
+      "platform": "claude",
+      "mentioned": true,
+      "position": 1,
+      "competitors": [
+        "Bluepine Revenue",
+        "Quillstone Partners"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p09",
+      "platform": "google_ai_overviews",
+      "mentioned": true,
+      "position": 2,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p10",
+      "platform": "chatgpt",
+      "mentioned": true,
+      "position": 1,
+      "competitors": [
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p10",
+      "platform": "perplexity",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p10",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Bluepine Revenue",
+        "Quillstone Partners"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p10",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p10",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Quillstone Partners",
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p11",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p11",
+      "platform": "perplexity",
+      "mentioned": true,
+      "position": 1,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Harborlight Growth",
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p11",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p11",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p11",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p12",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Bluepine Revenue",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p12",
+      "platform": "perplexity",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Meridian Reply Lab",
+        "Harborlight Growth",
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p12",
+      "platform": "gemini",
+      "mentioned": true,
+      "position": 2,
+      "competitors": [
+        "Harborlight Growth",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p12",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Tallgrass Outbound",
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-09-14",
+      "prompt_id": "p12",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Copperline SDR",
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p01",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p01",
+      "platform": "perplexity",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Quillstone Partners",
+        "Meridian Reply Lab",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p01",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p01",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p01",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Quillstone Partners"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p02",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Meridian Reply Lab",
+        "Tallgrass Outbound",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p02",
+      "platform": "perplexity",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Meridian Reply Lab",
+        "Tallgrass Outbound",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p02",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Meridian Reply Lab",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p02",
+      "platform": "claude",
+      "mentioned": true,
+      "position": 3,
+      "competitors": [
+        "Harborlight Growth",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p02",
+      "platform": "google_ai_overviews",
+      "mentioned": true,
+      "position": 3,
+      "competitors": [
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p03",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Tallgrass Outbound",
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p03",
+      "platform": "perplexity",
+      "mentioned": true,
+      "position": 3,
+      "competitors": [
+        "Harborlight Growth",
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p03",
+      "platform": "gemini",
+      "mentioned": true,
+      "position": 2,
+      "competitors": [
+        "Harborlight Growth",
+        "Copperline SDR",
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p03",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Meridian Reply Lab",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p03",
+      "platform": "google_ai_overviews",
+      "mentioned": true,
+      "position": 1,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Harborlight Growth",
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p04",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p04",
+      "platform": "perplexity",
+      "mentioned": true,
+      "position": 5,
+      "competitors": [
+        "Meridian Reply Lab",
+        "Tallgrass Outbound",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p04",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Quillstone Partners",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p04",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p04",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p05",
+      "platform": "chatgpt",
+      "mentioned": true,
+      "position": 2,
+      "competitors": [
+        "Meridian Reply Lab",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p05",
+      "platform": "perplexity",
+      "mentioned": true,
+      "position": 2,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p05",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p05",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p05",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Copperline SDR",
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p06",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Meridian Reply Lab",
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p06",
+      "platform": "perplexity",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Harborlight Growth",
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p06",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p06",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p06",
+      "platform": "google_ai_overviews",
+      "mentioned": true,
+      "position": 3,
+      "competitors": [
+        "Copperline SDR",
+        "Tallgrass Outbound",
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p07",
+      "platform": "chatgpt",
+      "mentioned": true,
+      "position": 5,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p07",
+      "platform": "perplexity",
+      "mentioned": true,
+      "position": 2,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p07",
+      "platform": "gemini",
+      "mentioned": true,
+      "position": 3,
+      "competitors": [
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p07",
+      "platform": "claude",
+      "mentioned": true,
+      "position": 2,
+      "competitors": [
+        "Copperline SDR",
+        "Tallgrass Outbound",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p07",
+      "platform": "google_ai_overviews",
+      "mentioned": true,
+      "position": 4,
+      "competitors": [
+        "Bluepine Revenue",
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p08",
+      "platform": "chatgpt",
+      "mentioned": true,
+      "position": 2,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p08",
+      "platform": "perplexity",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Bluepine Revenue",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p08",
+      "platform": "gemini",
+      "mentioned": true,
+      "position": 4,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p08",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Meridian Reply Lab",
+        "Bluepine Revenue",
+        "Quillstone Partners"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p08",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p09",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p09",
+      "platform": "perplexity",
+      "mentioned": true,
+      "position": 1,
+      "competitors": [
+        "Harborlight Growth",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p09",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Meridian Reply Lab",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p09",
+      "platform": "claude",
+      "mentioned": true,
+      "position": 5,
+      "competitors": [
+        "Copperline SDR",
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p09",
+      "platform": "google_ai_overviews",
+      "mentioned": true,
+      "position": 5,
+      "competitors": [
+        "Harborlight Growth",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p10",
+      "platform": "chatgpt",
+      "mentioned": true,
+      "position": 1,
+      "competitors": [
+        "Copperline SDR",
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p10",
+      "platform": "perplexity",
+      "mentioned": true,
+      "position": 4,
+      "competitors": [
+        "Meridian Reply Lab",
+        "Quillstone Partners"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p10",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Harborlight Growth",
+        "Meridian Reply Lab",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p10",
+      "platform": "claude",
+      "mentioned": true,
+      "position": 2,
+      "competitors": [
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p10",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p11",
+      "platform": "chatgpt",
+      "mentioned": true,
+      "position": 4,
+      "competitors": [
+        "Harborlight Growth"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p11",
+      "platform": "perplexity",
+      "mentioned": true,
+      "position": 3,
+      "competitors": [
+        "Harborlight Growth",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p11",
+      "platform": "gemini",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Copperline SDR",
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p11",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Copperline SDR",
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p11",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Copperline SDR",
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p12",
+      "platform": "chatgpt",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Tallgrass Outbound",
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p12",
+      "platform": "perplexity",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Meridian Reply Lab"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p12",
+      "platform": "gemini",
+      "mentioned": true,
+      "position": 5,
+      "competitors": [
+        "Tallgrass Outbound"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p12",
+      "platform": "claude",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Bluepine Revenue",
+        "Copperline SDR"
+      ],
+      "notes": ""
+    },
+    {
+      "date": "2026-10-14",
+      "prompt_id": "p12",
+      "platform": "google_ai_overviews",
+      "mentioned": false,
+      "position": null,
+      "competitors": [
+        "Bluepine Revenue"
+      ],
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "version": "1.0.0",
+  "title": "AI Search Visibility Checklist",
+  "weights": { "high": 3, "medium": 2, "low": 1 },
+  "answers": {
+    "yes": "Yes",
+    "no": "No",
+    "not_sure": "Not sure",
+    "not_relevant": "Not relevant"
+  },
+  "status": { "green_from": 70, "amber_from": 40 },
+  "sections": [
+    {
+      "id": "entity",
+      "n": 1,
+      "title": "Clear entity",
+      "desc": "One name, one clear line about what you do and for whom, the same everywhere"
+    },
+    {
+      "id": "crawl",
+      "n": 2,
+      "title": "Website basics for AI crawlers",
+      "desc": "Let AI search tools reach your pages and read your facts"
+    },
+    {
+      "id": "pages",
+      "n": 3,
+      "title": "Pages that answer buyer questions",
+      "desc": "Services, pricing, who it is for, proof, FAQ and fair comparisons"
+    },
+    {
+      "id": "third",
+      "n": 4,
+      "title": "Third party presence",
+      "desc": "What other sites say about you, not only your own site"
+    },
+    {
+      "id": "proof",
+      "n": 5,
+      "title": "Proof and freshness",
+      "desc": "Dates, updates, real reviews and real people"
+    },
+    {
+      "id": "words",
+      "n": 6,
+      "title": "Content in the words buyers use",
+      "desc": "Write the way buyers ask questions in AI chats"
+    },
+    {
+      "id": "measure",
+      "n": 7,
+      "title": "Measure",
+      "desc": "Check real buyer prompts every month and fix the gaps"
+    }
+  ],
+  "items": [
+    {
+      "id": "entity-one-name",
+      "section": "entity",
+      "question": "Do you use one exact company name everywhere: your website, LinkedIn, directories and invoices?",
+      "why": "AI tools put facts together from many sites. If your name is spelled three ways, they may treat you as three different companies, or skip you.",
+      "how": "Pick one exact spelling. Update your website footer, LinkedIn page, Google Business Profile and every directory listing to match it.",
+      "weight": "high"
+    },
+    {
+      "id": "entity-one-liner",
+      "section": "entity",
+      "question": "Do you have one plain sentence that says what you do and for whom?",
+      "why": "When someone asks an AI tool who does a job, it looks for a clear match. A plain sentence like \"We build AI sales agents for B2B SaaS companies\" is easy to match.",
+      "how": "Write one sentence: what you do, for whom, and how. No buzzwords. Put it at the top of your home page.",
+      "weight": "high"
+    },
+    {
+      "id": "entity-same-everywhere",
+      "section": "entity",
+      "question": "Is that sentence the same, or very close, on your website, LinkedIn and directory profiles?",
+      "why": "When many sources say the same thing about you, the picture an AI tool builds of your company is clearer.",
+      "how": "Copy your one line description into your LinkedIn tagline, your directory profiles and your social bios.",
+      "weight": "medium"
+    },
+    {
+      "id": "entity-about-page",
+      "section": "entity",
+      "question": "Does your website have an About page that says who you are, where you are based (or that you are remote) and when you started?",
+      "why": "Basic facts about a company help AI tools describe you correctly and tell you apart from companies with similar names.",
+      "how": "Add an About page with your founders, your location or service area, the year you started and what you focus on.",
+      "weight": "medium"
+    },
+    {
+      "id": "entity-contact-details",
+      "section": "entity",
+      "question": "Are your contact details (address or service area, email, phone if you use one) the same on your site and your profiles?",
+      "why": "Matching details make it easier to connect your website, your profiles and your reviews as one business.",
+      "how": "List the same contact details on your website and your main profiles. Remove old addresses and old emails.",
+      "weight": "low"
+    },
+    {
+      "id": "crawl-robots-allow",
+      "section": "crawl",
+      "question": "Does your robots.txt file let AI search crawlers read your site (unless you chose to block them)?",
+      "why": "If your robots.txt blocks an AI company's search crawler, that tool may not be able to read your pages, so it cannot quote them.",
+      "how": "Run python3 tools/site_check.py with your own website address. It lists which known AI crawlers your robots.txt blocks. Each AI company explains its crawlers on its own help pages, so read those before you change anything.",
+      "weight": "high"
+    },
+    {
+      "id": "crawl-text-not-images",
+      "section": "crawl",
+      "question": "Are your key facts (what you do, who it is for, prices, locations) written as plain text, not only inside images or videos?",
+      "why": "Text is the easiest thing for any tool to read. Facts that only live inside a picture or a video are easy to miss.",
+      "how": "Look at your home, services and pricing pages. Any fact that only appears in an image, write it out as text on the page too.",
+      "weight": "high"
+    },
+    {
+      "id": "crawl-org-schema",
+      "section": "crawl",
+      "question": "Does your home page have Organization structured data (or LocalBusiness or SoftwareApplication, whichever fits)?",
+      "why": "Structured data (a small block of JSON-LD code) states your name, website, logo and profiles in a format machines read easily. It is not a guarantee of anything, but it removes guesswork.",
+      "how": "Add a JSON-LD block of type Organization to your home page with your name, url, logo and sameAs links to your profiles. tools/site_check.py tells you if one is found.",
+      "weight": "medium"
+    },
+    {
+      "id": "crawl-headings",
+      "section": "crawl",
+      "question": "Does each important page have one clear main heading (H1) and headings that describe each part?",
+      "why": "Clear headings show what each part of a page is about, so the right part can be found and quoted.",
+      "how": "Give every page one H1 that says what the page is about. Use H2 headings for each part, written in plain words.",
+      "weight": "medium"
+    },
+    {
+      "id": "crawl-title-meta",
+      "section": "crawl",
+      "question": "Does each important page have its own page title and meta description?",
+      "why": "The title and description are short summaries of the page. Search tools of all kinds read them.",
+      "how": "Write a unique title (about 60 characters) and description (about 150 characters) for your home, services, pricing and about pages.",
+      "weight": "medium"
+    },
+    {
+      "id": "crawl-no-wall",
+      "section": "crawl",
+      "question": "Can your important pages be read without logging in, closing big popups, or waiting for heavy scripts to show the text?",
+      "why": "Some crawlers do not log in, click popups or run every script. If your text only appears after that, they may see an empty page.",
+      "how": "Open your pages in a private window with scripts slowed down. Make sure the main text is in the page itself and is not hidden behind a login or a wall.",
+      "weight": "medium"
+    },
+    {
+      "id": "crawl-fast-mobile",
+      "section": "crawl",
+      "question": "Do your pages load fast and work well on a phone?",
+      "why": "Slow or broken pages are a bad experience for people and can be harder for crawlers to read in full.",
+      "how": "Test your main pages on your phone. Shrink big images and remove scripts you do not need.",
+      "weight": "low"
+    },
+    {
+      "id": "crawl-sitemap",
+      "section": "crawl",
+      "question": "Do you have a sitemap.xml that lists your important pages?",
+      "why": "A sitemap is a simple list of your pages, so crawlers can find all of them, including new ones.",
+      "how": "Most website builders make one for you at /sitemap.xml. Check it exists and add a Sitemap line to your robots.txt.",
+      "weight": "low"
+    },
+    {
+      "id": "crawl-llms-txt",
+      "section": "crawl",
+      "question": "(Optional) Do you have an llms.txt file at the root of your site?",
+      "why": "llms.txt is a proposed plain text file that summarises your site for AI tools. It is optional and its effect is not proven. It is cheap to add, so it is here as a small, low weight item.",
+      "how": "If you want to try it, add a short /llms.txt with your company name, your one line description and links to your key pages. Do not spend much time on it.",
+      "weight": "low"
+    },
+    {
+      "id": "pages-services",
+      "section": "pages",
+      "question": "Do you have a page for each main service that says what it is, who it is for and what is included?",
+      "why": "Buyers ask AI tools for a specific service. A page that answers exactly that question is much easier to match than one page that lists everything.",
+      "how": "Make one page per main service: what it does, who it is for, what is included, how long it takes and what the buyer gets.",
+      "weight": "high"
+    },
+    {
+      "id": "pages-pricing",
+      "section": "pages",
+      "question": "Do you have a pricing page, or a page that explains how your pricing works?",
+      "why": "\"How much does it cost\" is one of the first questions buyers ask. If your site never answers it, other sites will answer it for you.",
+      "how": "Show your prices, or a starting price, or explain what changes the price (volume, setup, extras). A range is better than nothing.",
+      "weight": "high"
+    },
+    {
+      "id": "pages-case-studies",
+      "section": "pages",
+      "question": "Do you have case studies with real results you are allowed to share?",
+      "why": "Specific, real results are the kind of proof that helps a buyer choose you over a long list of names.",
+      "how": "Write up 2 or 3 real projects: the problem, what you built, the result with real numbers. Get the client's permission first, or remove the client's name.",
+      "weight": "high"
+    },
+    {
+      "id": "pages-who-for",
+      "section": "pages",
+      "question": "Does your site say clearly who you are for, and who you are not for?",
+      "why": "Buyers often ask for help that fits their size, industry or budget. Saying who you serve makes that match clear.",
+      "how": "Add a short \"Who this is for\" part to your home or services page: industry, company size, and when you are not a good fit.",
+      "weight": "medium"
+    },
+    {
+      "id": "pages-faq",
+      "section": "pages",
+      "question": "Do you have an FAQ page that answers real buyer questions in plain words?",
+      "why": "Buyers ask AI tools questions. A page of real questions with short, direct answers matches the way they ask.",
+      "how": "Collect the questions buyers ask on sales calls and in emails. Answer each in 2 to 4 plain sentences on one FAQ page.",
+      "weight": "medium"
+    },
+    {
+      "id": "pages-process",
+      "section": "pages",
+      "question": "Do you explain how working with you works, step by step, with rough timelines?",
+      "why": "\"What happens after I sign\" is a common buyer question. A clear process page answers it and builds trust.",
+      "how": "Write your process as 3 to 6 steps, with what happens in each step and about how long it takes.",
+      "weight": "low"
+    },
+    {
+      "id": "pages-comparison",
+      "section": "pages",
+      "question": "Do you have comparison pages that are fair and true (for example your service compared with hiring in house)?",
+      "why": "Buyers ask AI tools to compare options. A fair comparison page gives them a clear answer from you, as long as it is honest.",
+      "how": "Write 1 or 2 fair comparisons: you versus doing it in house, or versus a common alternative. Be accurate about the other option and say when it is the better choice.",
+      "weight": "low"
+    },
+    {
+      "id": "third-linkedin-page",
+      "section": "third",
+      "question": "Is your LinkedIn company page complete, with the same name and one line description as your website?",
+      "why": "LinkedIn is one of the main places people and tools look for facts about a B2B company.",
+      "how": "Fill in every field of your LinkedIn company page: name, tagline, about, website, industry, size, location. Post now and then.",
+      "weight": "high"
+    },
+    {
+      "id": "third-directories",
+      "section": "third",
+      "question": "Are you listed on the directories and review sites that fit your niche?",
+      "why": "AI answers often draw on third party sites, not only your own. Being listed where buyers in your niche compare options gives tools more places to find you.",
+      "how": "Pick the ones that fit: G2 or Capterra for software, Clutch for agencies, Google Business Profile for local businesses, plus any directory your niche uses. Fill each profile in full.",
+      "weight": "high"
+    },
+    {
+      "id": "third-partner-pages",
+      "section": "third",
+      "question": "Are you listed on partner pages, for example the partner directory of a tool you build with?",
+      "why": "A listing on a well known partner page is a trusted outside source that says what you do.",
+      "how": "Check the partner or expert directories of the tools you use most. Apply where you qualify and keep the listing up to date.",
+      "weight": "medium"
+    },
+    {
+      "id": "third-podcasts-articles",
+      "section": "third",
+      "question": "Have you appeared in podcasts, guest articles or interviews in your niche?",
+      "why": "Mentions on other people's sites and shows spread your name and your story beyond your own website.",
+      "how": "Pitch 2 or 3 niche podcasts or blogs a month with one useful story. Ask them to link to your site and use your exact company name.",
+      "weight": "medium"
+    },
+    {
+      "id": "third-communities",
+      "section": "third",
+      "question": "Do you give helpful answers in communities your buyers read (forums, Reddit, Slack groups), under your real name and without spam?",
+      "why": "Community answers are public text about your topic. Helpful answers build your name over time. Spam does the opposite.",
+      "how": "Answer real questions in 1 or 2 communities each week. Help first. Mention your company only when it truly fits the question.",
+      "weight": "low"
+    },
+    {
+      "id": "proof-real-reviews",
+      "section": "proof",
+      "question": "Do you have real reviews from real clients on third party sites?",
+      "why": "Reviews on outside sites are proof that other people trust you. Buyers look for them, and so does anyone comparing options.",
+      "how": "After each good project, ask the client for a short review on the site that fits your niche. Never write fake reviews or pay for them.",
+      "weight": "high"
+    },
+    {
+      "id": "proof-dated-content",
+      "section": "proof",
+      "question": "Do your articles and key pages show the date they were published or last updated?",
+      "why": "A date tells readers and tools that the information is current, which matters a lot in a fast moving field like AI.",
+      "how": "Show a \"Last updated\" date on your articles, pricing page and service pages.",
+      "weight": "medium"
+    },
+    {
+      "id": "proof-updated-pages",
+      "section": "proof",
+      "question": "Have you reviewed your services, pricing and about pages in the last 6 months?",
+      "why": "Old facts (old prices, old services, old team) confuse buyers and give tools the wrong picture of you.",
+      "how": "Put a reminder in your calendar every 3 months to read your key pages and fix anything that changed.",
+      "weight": "medium"
+    },
+    {
+      "id": "proof-named-founders",
+      "section": "proof",
+      "question": "Does your site name the founders or team, with links to their real profiles?",
+      "why": "Real, named people with real profiles make a company easier to trust and easier to describe.",
+      "how": "Add names, photos, a short bio and a LinkedIn link for the founders or key team on your About page.",
+      "weight": "medium"
+    },
+    {
+      "id": "proof-consistent-numbers",
+      "section": "proof",
+      "question": "Do your claims and numbers match everywhere (website, LinkedIn, decks, directories)?",
+      "why": "If one site says 50 clients and another says 200, nobody knows which one is true, and the claim loses its value.",
+      "how": "Make a short list of your key facts and numbers. Check that every profile and page uses the same, current ones.",
+      "weight": "low"
+    },
+    {
+      "id": "words-use-cases",
+      "section": "words",
+      "question": "Do you have pages or sections for specific use cases, like \"AI SDR for B2B SaaS\" or \"voice agent for dental clinics\"?",
+      "why": "People ask AI tools very specific questions. A page for a specific use case matches a specific question much better than a general page.",
+      "how": "List the 3 to 5 use cases you sell most. Give each one its own page or section with the problem, what you build and a real example.",
+      "weight": "high"
+    },
+    {
+      "id": "words-question-headings",
+      "section": "words",
+      "question": "Are some of your headings written as the questions buyers really ask?",
+      "why": "A heading like \"How long does it take to set up an AI SDR?\" matches the way people type into AI chats.",
+      "how": "Turn some headings on your service pages and FAQ into real questions, then answer each one in the first sentence below it.",
+      "weight": "medium"
+    },
+    {
+      "id": "words-niche-location",
+      "section": "words",
+      "question": "Where it matters, do you mention your niche and the places you serve (city, region or country)?",
+      "why": "Many buyer questions include a place or an industry, like \"in Austin\" or \"for law firms\". If your pages never say it, it is hard to match you.",
+      "how": "Name the industries and the places you serve on your home and service pages. Only list places you really serve.",
+      "weight": "medium"
+    },
+    {
+      "id": "words-buyer-language",
+      "section": "words",
+      "question": "Do you use the words your buyers use, not only your own inside words?",
+      "why": "If buyers say \"book more sales calls\" and your site only says \"pipeline orchestration\", the match is weaker.",
+      "how": "Write down the exact words buyers use on sales calls and in emails. Use those words on your pages.",
+      "weight": "low"
+    },
+    {
+      "id": "measure-prompt-list",
+      "section": "measure",
+      "question": "Do you have a list of 10 to 20 real questions your buyers might ask an AI tool?",
+      "why": "You cannot see what you do not check. A fixed list of buyer prompts shows you where you appear and where you do not.",
+      "how": "Use the prompt library in this kit. Pick 10 to 20 prompts that fit your niche and edit them into the words your buyers use.",
+      "weight": "high"
+    },
+    {
+      "id": "measure-monthly-check",
+      "section": "measure",
+      "question": "Do you check those prompts every month on the main AI platforms and write down the results?",
+      "why": "AI answers change often. A monthly check shows whether your fixes are helping, instead of guessing.",
+      "how": "Once a month, ask each prompt on ChatGPT, Perplexity, Gemini, Claude and Google AI Overviews. Record in the tracker if you were named, your position and who else was named.",
+      "weight": "high"
+    },
+    {
+      "id": "measure-competitors",
+      "section": "measure",
+      "question": "Do you note which competitors are named, and look at what their pages have that yours do not?",
+      "why": "The companies that get named show you what kind of pages, proof and listings exist in your niche.",
+      "how": "In the tracker, write down who else is named. Look at the top 3 names: their pages, reviews and directory listings. Note what you are missing.",
+      "weight": "medium"
+    },
+    {
+      "id": "measure-fix-gaps",
+      "section": "measure",
+      "question": "Do you turn each gap into one fix and check again next month?",
+      "why": "Checking only helps if it leads to action. Small fixes, checked every month, add up.",
+      "how": "After each monthly check, pick the top 1 to 3 fixes from this checklist, do them, and compare next month's results.",
+      "weight": "medium"
+    }
+  ]
+}

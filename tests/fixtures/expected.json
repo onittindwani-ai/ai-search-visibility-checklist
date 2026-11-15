@@ -1,0 +1,98 @@
+{
+  "_note": "Expected results for data/sample-business.json. Asserted by tests/test_visibility.py and tests/engine.test.mjs, so the app and the command line tool must agree.",
+  "score": {
+    "earned": 43,
+    "possible": 80,
+    "percent": 54,
+    "status": "amber",
+    "answered": 33,
+    "total": 39
+  },
+  "sections": {
+    "entity": {
+      "earned": 10,
+      "possible": 11,
+      "percent": 91,
+      "status": "green"
+    },
+    "crawl": {
+      "earned": 12,
+      "possible": 17,
+      "percent": 71,
+      "status": "green"
+    },
+    "pages": {
+      "earned": 7,
+      "possible": 15,
+      "percent": 47,
+      "status": "amber"
+    },
+    "third": {
+      "earned": 3,
+      "possible": 11,
+      "percent": 27,
+      "status": "red"
+    },
+    "proof": {
+      "earned": 4,
+      "possible": 10,
+      "percent": 40,
+      "status": "amber"
+    },
+    "words": {
+      "earned": 1,
+      "possible": 6,
+      "percent": 17,
+      "status": "red"
+    },
+    "measure": {
+      "earned": 6,
+      "possible": 10,
+      "percent": 60,
+      "status": "amber"
+    }
+  },
+  "top_fixes": [
+    "pages-pricing",
+    "third-directories",
+    "proof-real-reviews",
+    "words-use-cases",
+    "crawl-org-schema"
+  ],
+  "tracker": {
+    "dates": [
+      [
+        "2026-08-14",
+        7,
+        60,
+        12
+      ],
+      [
+        "2026-09-14",
+        16,
+        60,
+        27
+      ],
+      [
+        "2026-10-14",
+        25,
+        60,
+        42
+      ]
+    ],
+    "change": 30,
+    "avg_position": 3.0,
+    "overall_share": 27,
+    "top_competitor": {
+      "name": "Tallgrass Outbound",
+      "count": 92
+    },
+    "platform_shares": {
+      "chatgpt": 42,
+      "perplexity": 58,
+      "gemini": 33,
+      "claude": 33,
+      "google_ai_overviews": 42
+    }
+  }
+}
